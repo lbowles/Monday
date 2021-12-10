@@ -11,14 +11,14 @@
 }
 
 .background {
-  height: 100vh;
+  height: 108vh;
 }
 
 .divider {
   border: 2px solid #d2d2d2;
   width: 100vh;
-  margin-bottom: 70px;
-  margin-top: 70px;
+  margin-bottom: 100px;
+  margin-top: 80px;
 }
 
 .App-link {

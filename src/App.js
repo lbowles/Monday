@@ -8,9 +8,6 @@ function App() {
       <header className="container">
         <img src={background} alt="background" className="background"></img>
       </header>
-      <div className="container">
-        <div className="divider"></div>
-      </div>
       <Section1></Section1>
     </div>
   );
