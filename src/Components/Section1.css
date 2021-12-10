@@ -1,0 +1,15 @@
+.boarder {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  padding: 40px;
+  margin-left: -25px;
+  margin-top: 25px;
+  margin-right: 25px;
+  padding-bottom: 60px;
+  margin-bottom: -25px;
+}
+.boarder2 {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  margin-left: 25px;
+}
