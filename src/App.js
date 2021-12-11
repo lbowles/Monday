@@ -4,6 +4,7 @@ import Section3 from './Components/Section3';
 import './App.css';
 import Lottie from 'react-lottie';
 import data from './data.json';
+import mondayUtil from "./util"
 
 
 function App() {
@@ -22,8 +23,8 @@ function App() {
       <div className="container" ><div className="divider" style={{marginTop:"-1px", width:"3000px"}}></div></div>
       <Section1></Section1>
       <div className="container"><div className="divider"></div></div>
-      <Section3></Section3>
-      <div className="container"><div className="divider"></div></div>
+      <Section3 days={mondayUtil.daysLeftInYear()}></Section3>
+      <div className="container" ><div className="divider"></div></div>
     </div>
   );
 }
