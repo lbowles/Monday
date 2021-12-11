@@ -3,8 +3,7 @@ import "./Section1.css"
 
 const Section = () => {
     return (
-        <div className="container" style={{overflow:"visible",padding:"40px"}}>
-        
+        <div className="container" style={{overflow:"visible",paddingBottom:"40px"}}>
             <div className="boarder2">
                 <div className="boarder">
                     <h1 style={{marginLeft : "25px", maxWidth:"230px", marginTop:"-10px"}}>How many mondays are there in a week?</h1>
@@ -13,8 +12,6 @@ const Section = () => {
                     <h2 style={{marginLeft : "25px", marginTop:"-10px", marginBottom:"-30px"}}>5</h2>
                 </div>
             </div>
-            <h1 style={{paddingTop : "80px"}}></h1>
-
         </div>
     )
 }
